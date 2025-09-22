@@ -1,4 +1,5 @@
 //Deepseek
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <vector>
 #include <string>
@@ -157,10 +158,14 @@ void displayMenu() {
 
 
 
-
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+#include <vector>
+#include <string>
+#include <iomanip>
 //我的思路
 #include <string.h>
-int main()
+int main_my()
 {
     int choice, i;
     char weekchoice[100];
@@ -212,7 +217,7 @@ int main()
     else if (choice == 2) {
         printf("【成绩等级判定】请输入成绩：");
         scanf("%d", &i);
-        printf("\n【您的等级为：】\n", i);
+        printf("\n【您的等级为%d】\n", i);
         if (i < 0 || i>100) {
             printf("Score is error!\n");
         }
