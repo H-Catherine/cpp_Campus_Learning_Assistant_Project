@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	printf("ÇëÊäÈëÈı±ß³¤£º");
+	printf("è¯·è¾“å…¥ä¸‰è¾¹é•¿");
 	int a,b,c;
 	scanf("%d %d %d",&a,&b,&c);
 	if(a<0||b<0||c<0||a+b<=c||a+c<=b||b+c<=a)
